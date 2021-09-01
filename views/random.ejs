@@ -1,0 +1,15 @@
+<html> 
+<head>
+    <title>Random</title>
+</head>
+<body>
+    <h1>Random</h1>
+    <p>Your random number is: <%= num %></p>
+    <% if(num%2===0){ %> 
+    <h2>That is an even Number</h2>
+    <% } else { %>
+        <h2>That is an ODD Number</h2>
+    <% } %>
+    <h3><%= num%2 === 0 ? 'Even' : 'ODD'%> </h3>
+</body>
+</html>
